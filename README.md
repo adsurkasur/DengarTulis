@@ -97,4 +97,6 @@ DengarTulis/
  DengarTulis dilisensikan di bawah lisensi MIT.  
  Silakan cek file LICENSE untuk detailnya.    
 
- Selamat menggunakan **DengarTulis**! 😊🚀  
+---
+
+## Selamat menggunakan **DengarTulis**! 😊🚀  
