@@ -1,31 +1,31 @@
 # DengarTulis 🎙️✍️  
-AI lokal untuk mendikte suara menjadi teks dengan pemahaman konteks.  
-DengarTulis mendukung input suara dan teks secara seamless untuk meningkatkan produktivitas dalam menulis, mencatat, atau mendikte ide.  
+AI-powered local tool for voice dictation with contextual understanding.  
+DengarTulis supports seamless input through both voice and text, enhancing productivity in writing, note-taking, and idea dictation.  
 
 ---
 
-## 🔥 Fitur Utama
-- Dikte suara dengan pemahaman konteks (STT menggunakan Whisper)
-- Interaksi AI menggunakan model Llama 3.2 (3B, quantized)
-- Umpan balik suara dengan Coqui TTS (bahasa Indonesia)
-- Mode "Ketik" dan "Live" yang seamless
-- Manajemen memori percakapan dan new chat
-- UI/UX desktop dengan GUI interaktif
+## 🔥 Key Features
+- Context-aware voice dictation (STT using Whisper)  
+- AI interaction powered by Llama 3.2 (3B, quantized)  
+- Text-to-Speech (TTS) with Coqui TTS (supports multiple languages)  
+- Seamless "Typing" and "Live" modes  
+- Conversation memory management and new chat feature  
+- Interactive desktop GUI for user-friendly experience  
 
 ---
 
-## 🚀 Teknologi yang Digunakan
-- **Bahasa Pemrograman:** Python  
-- **Model AI:** Llama 3.2 (3B, quantized)  
+## 🚀 Technologies Used
+- **Programming Language:** Python  
+- **AI Model:** Llama 3.2 (3B, quantized)  
 - **STT (Speech-to-Text):** OpenAI Whisper  
-- **TTS (Text-to-Speech):** Coqui TTS  
-- **Antarmuka:** Tkinter atau PyQt  
+- **TTS (Text-to-Speech):** Coqui TTS (multi-language)  
+- **Interface:** Tkinter or PyQt  
 - **Dependency Manager:** venv  
 
 ---
 
-## 📂 Struktur Folder
-DengarTulis/
+## 📂 Project Structure
+DengarTulis/  
 │── README.md  
 │── requirements.txt  
 │── .gitignore  
@@ -47,56 +47,70 @@ DengarTulis/
     ├── user_logs/  
     └── models/  
 
-- **src/ai_engine/**: Logika AI (LLM, STT, TTS)  
-- **src/gui/**: Interface aplikasi (Tkinter atau PyQt)  
-- **src/utils/**: Fungsi pendukung seperti memori percakapan dan audio  
-- **data/**: Penyimpanan model dan log pengguna  
+- **src/ai_engine/**: AI logic (LLM, STT, TTS)  
+- **src/gui/**: User interface (Tkinter or PyQt)  
+- **src/utils/**: Utilities like memory management and audio handling  
+- **data/**: Storage for models and user logs  
 
 ---
 
-## 🔧 Setup & Instalasi
-1. Clone repository:
-   ```bash
-   git clone https://github.com/username/DengarTulis.git
-   cd DengarTulis
-   ```
- 2. Buat virtual environment:  
- ```bash  
- python -m venv venv  
- ```  
+## 🔧 Setup & Installation
+1. Clone the repository:  
+```bash  
+git clone https://github.com/username/DengarTulis.git  
+cd DengarTulis  
+```  
 
- 3. Aktifkan virtual environment:  
- - **Windows:**  
- ```bash  
- .\venv\Scripts\activate  
- ```  
- - **Mac/Linux:**  
- ```bash  
- source venv/bin/activate  
- ```  
+2. Create a virtual environment:  
+```bash  
+python -m venv venv  
+```  
 
- 4. Install dependencies:  
- ```bash  
- pip install -r requirements.txt  
- ```  
+3. Activate the virtual environment:  
+- **Windows:**  
+```bash  
+.\venv\Scripts\activate  
+```  
+- **Mac/Linux:**  
+```bash  
+source venv/bin/activate  
+```  
 
- ## 🚀 Menjalankan Aplikasi  
- 1. Jalankan program utama:  
- ```bash  
- python main.py  
- ```  
- 2. Pilih mode **Ketik** atau **Live** pada UI.  
- 3. Mulai mendikte suara atau mengetik teks, AI akan merespons sesuai konteks.  
-
- ## 🤝 Kontribusi  
- Kami terbuka untuk kontribusi!  
- Silakan **fork** repository ini, buat **branch baru**, dan kirim **pull request**.  
- Jangan lupa cek **issue** untuk melihat kebutuhan pengembangan.  
-
- ## 📜 Lisensi  
- DengarTulis dilisensikan di bawah lisensi MIT.  
- Silakan cek file LICENSE untuk detailnya.    
+4. Install dependencies:  
+```bash  
+pip install -r requirements.txt  
+```  
 
 ---
 
-## Selamat menggunakan **DengarTulis**! 😊🚀  
+## 🚀 Running the Application
+1. Run the main program:  
+```bash  
+python main.py  
+```  
+2. Choose **Typing** or **Live** mode on the GUI.  
+3. Start voice dictation or type text; the AI will respond contextually.  
+
+---
+
+## 🔥 Building EXE for Distribution  
+To generate a standalone executable (`.exe`):  
+```bash  
+pyinstaller --onefile --noconsole main.py  
+```  
+The output EXE will support multiple languages through Coqui TTS.  
+
+---
+
+## 🤝 Contributions  
+Contributions are welcome!  
+Feel free to **fork** the repository, create a **new branch**, and submit a **pull request**.  
+Check the **issues** for development needs.  
+
+---
+
+## 📜 License  
+DengarTulis is licensed under the **MIT License**.  
+Please check the LICENSE file for more details.  
+
+Happy using **DengarTulis**! 😊🚀  
