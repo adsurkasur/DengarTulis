@@ -1,0 +1,14 @@
+torch
+torchvision
+torchaudio
+--extra-index-url https://download.pytorch.org/whl/cu118
+transformers
+sentencepiece
+ollama
+git+https://github.com/openai/whisper.git  # Install Whisper langsung dari GitHub
+TTS
+pyaudio
+pyinstaller
+ffmpeg-python  # Wrapper Python untuk FFMPEG
+langdetect
+ollama
