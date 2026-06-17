@@ -6,9 +6,9 @@ transformers
 sentencepiece
 ollama
 git+https://github.com/openai/whisper.git  # Install Whisper langsung dari GitHub
-TTS
-pyaudio
+pyttsx3
 pyinstaller
 ffmpeg-python  # Wrapper Python untuk FFMPEG
 langdetect
-ollama
+sounddevice
+PyQt6
